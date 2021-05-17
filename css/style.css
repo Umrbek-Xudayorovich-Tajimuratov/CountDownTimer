@@ -18,7 +18,27 @@ body{
     backdrop-filter: blur(3px);
 }
 
+.set-timer{
+    margin-top: 1rem;
+}
 
+#settitle{
+    padding: 7px;
+    border: none;
+
+}
+
+
+
+input[type="date"]{
+    padding: 5px;
+    border: none;
+}
+
+#settitle:focus,input[type="date"]:focus{
+    outline: none;
+    /* border: 2px solid rgba(0, 0, 0, 0.04); */
+}
    
 
 
@@ -30,7 +50,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px); 
     padding: 1rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     min-width: 100%;
@@ -44,10 +64,6 @@ h1{
     
 }
 
-h1 > span{
-    font-size: 1rem;
-    font-style: oblique;   
-}
 
 .text{
     font-size: 6rem;

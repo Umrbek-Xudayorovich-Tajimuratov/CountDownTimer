@@ -8,8 +8,16 @@
     <title>Countdown Timer</title>
 </head>
 <body>
+
+    <div class="set-timer">
+        <label for="set-title">Input Title and Date: </label>
+        <input type="text" id="settitle">
+        <input type="date" min="2021-00-00" max="2050-05-30" value="2021-10-18" id="date-input">
+        
+        <span id="state" style="color: black; font-style: italic;"></span>
+    </div>
   
-    <h1>My Birthday <span>18.10.1997</span></h1>
+    <h1 id="titleh1">My Birthday</h1>
 
     <div class="countdown-container">
         <div class="days">
